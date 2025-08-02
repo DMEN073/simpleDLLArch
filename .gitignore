@@ -1,0 +1,28 @@
+# Ignore build and bin directories
+/build/
+/bin/
+/lib/
+*/__pycache__/
+
+# Ignore CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Ignore other common temporary files
+*.swp
+*.swo
+*.log
+*.lock
+
+# Ignore IDE-specific files (for example, for Visual Studio Code and Visual Studio)
+.vscode/
+.vs/
+.idea/
+
+# Ignore system-specific files
+Thumbs.db
+.DS_Store
+
